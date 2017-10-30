@@ -4,8 +4,8 @@ exports.mailFunc = function(subject, recepient, text, fn){
 	var transporter = nodemailer.createTransport({
 	  service: 'gmail',
 	  auth: {
-	    user: 'testnode527@gmail.com',
-	    pass: 'gmail98765'
+	    user: '',
+	    pass: ''
 	  }
 	});
   
